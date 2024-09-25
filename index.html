@@ -26,6 +26,9 @@ text-align:center;
 
 header h1{
 margin-battom: 10px;
+background-color: purple;
+
+norder: 3px solid black;
 }
 
 nav ul{
@@ -48,6 +51,7 @@ margin:20px 0;
 
 section#sobre,
 section#projetos,
+section#cadastro,
 section#contato{
 background-color: #fff;
 padding:20px;
@@ -67,6 +71,7 @@ margin-top: 20px;
            <ul>
               <li><a href="#sobre">Sobre Mim</a></li>
               <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#cadastro">Cadastro</a></li>
               <li><a href="#contato">Contato</a></li>
           </ul>
       </nav>
@@ -83,15 +88,115 @@ margin-top: 20px;
     <ul>
     <li>Projetos 1: <a href "#">Descrição do projeto 1</a></li>
     <li>Projeto 2: <a href "#">Descrição do projeto 2</a></li>
+    <li>Projeto 3: <a href "#">Descrição do projeto 3</a></li>
     </ul>
   </section>
+<section id="cadastro">
+   <h2> Cadastro De Pessoas </h2>
+  <form>
+    <label> Nome </label>
+    <input type="text" id"nome" name="nome" required>
+    <label> Email </label>
+    <input type="email" id"email" name="email" required>
+    <label> Telefone </label>
+    <input type="tel" id"telefone" name="telefone" required>
+    <input type="submit" value="cadastrar">
+</form>
 
+</section>
   <section id="contato">
   <h2>Contato </h2>
     <p> entre em contato comigo via <a href="mailto:emanuely_albuquer@estudante.sesisenai.org.br">emanuely_albuquer@estudante.sesisenai.org.br</a>.</p
-  <footer>
+  <footer> 
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <style>
+    body {
+      font-family: arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+
+
+    }
+
+
+    h2 {
+      text-align: center;
+
+
+
+
+    }
+
+
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+
+    label,
+    input {
+      display: block;
+      margin-bottom: 10px
+    }
+
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 95%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      cursor:pointer;
+    }
+    input[type="submit"] :hover{
+    background-color:0056b3
+   
+    }
+  </style>
+ 
+    
+</body>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+    
     <p>&copy; @2024- Emanuely Raissa </p>
 </body>
 </html>
-
+header h1{
+  background-image: linear-gradient(rgb(82, 82, 197) , rgb(87, 15, 87))
+}
 
